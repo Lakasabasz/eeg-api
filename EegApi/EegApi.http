@@ -1,0 +1,8 @@
+@EegApi_HostAddress = http://localhost:7999
+
+POST {{EegApi_HostAddress}}/data/
+Accept: application/json
+Content-Type: application/json
+
+{"data": [1, 2, 3]}
+###
